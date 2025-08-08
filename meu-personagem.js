@@ -173,4 +173,3 @@ if (poderinimigo <= 0) {
 console.log("");
 console.log("🏁 FIM DO CAPÍTULO - Aguarde o próximo nível da aventura!");
 console.log("");
-console.log("");
