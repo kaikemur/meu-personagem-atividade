@@ -198,3 +198,32 @@ console.log(`${nome} falha em sua missao e acaba nao derrotando o ${inimigo} e p
 console.log("📜 === CONTINUAÇÃO DA JORNADA DE " + nome + " ===");
 console.log("");
 
+// PRÓLOGO - Conexão com o Nível 1
+console.log("Após os eventos do " + localAtual + ", nosso herói " + nome);
+console.log("da classe " + classe + " se depara com um novo desafio...");
+console.log("");
+
+// [Aqui você implementa os 3 capítulos com os conceitos das etapas anteriores]
+
+// EPÍLOGO - Resultado final
+if (poderinimigo <= 0) {
+    console.log("🎉 VITÓRIA ÉPICA! " + nome + " triunfa na sua batalha final!");
+    xp += 100;
+    combatesVencidos++;
+    console.log("A lenda de " + nome + " cresce...");
+} else {
+    console.log("⚔️ A batalha foi árdua, mas " + nome + " sobrevive para lutar outro dia!");
+}
+
+console.log("");
+console.log("🏁 FIM DO CAPÍTULO - Aguarde o próximo nível da aventura!");
+console.log("");
+
+// === CONTINUAÇÃO DA SAGA ÉPICA - NÍVEL 3 ===
+// Mantenha seu personagem dos níveis anteriores e adicione:
+
+
+let vidaAtual = 120;
+let vidaMaxima = 120;
+let experiencia = 200;
+let ouro = 150;
