@@ -173,3 +173,28 @@ if (poderinimigo <= 0) {
 console.log("");
 console.log("🏁 FIM DO CAPÍTULO - Aguarde o próximo nível da aventura!");
 console.log("");
+
+// capitulo 3 - ⚔️ Batalha final
+console.log(`capitulo 3 - ⚔️ Batalha final`);
+
+//estrategia de combate de acordo com situação
+if(vidaSuficiente<=125){
+    console.log(`${nome} em uma tentativa dessesperada`);
+    console.log(`usa seu ataque final`);
+    poderinimigo -= (ataqueTotal * 2)
+    console.log(`deixando o ${inimigo} acabado e finalmente cumprindo seu objetivo ` );
+}else if (forca>=50 && classe=== "guerreiro"){
+    console.log(`embui sua espada ${nomeArma} com aura para um ataque definitivo`);
+    console.log(`corte final`);
+    poderinimigo-=30;
+    aura -=aura;
+    console.log(`assim morrendo junto ao ${inimigo} mas finalmente cumprindo seu objetivo`);
+    vida -= vida;
+}else if(moedas>=200 &&  agilidade>=40){
+    console.log(`${nome} suborna um dos lacaios do ${inimigo} e foge `);
+    poderinimigo-=agilidade;
+}else
+console.log(`${nome} falha em sua missao e acaba nao derrotando o ${inimigo} e presso forçado a trabalhar para ele`);
+console.log("📜 === CONTINUAÇÃO DA JORNADA DE " + nome + " ===");
+console.log("");
+
